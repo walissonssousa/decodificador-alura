@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Textos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/LogoAlura.svg" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="main-title">CRIPTOGRAFIA DE TEXTOS</h1>
+            </div>
+            <div class="col-md-6 mb-3">
+                <textarea id="inputTexto" class="form-control" rows="4"
+                    placeholder="Digite um texto que você deseja criptografar..."></textarea>
+                <span class="main-title input-title mt-1">Todos os caracteres maiúsculos e diacríticos serão convertidos.</span>
+            </div>
+            <div class="col-md-6 mb-3">
+                <textarea id="outputTexto" class="form-control" rows="4" readonly
+                    placeholder="Nenhuma mensagem digitada..."></textarea>
+            </div>
+            <div class="col-12 text-center">
+                <button class="btn btn-primary m-1 button-encrypt">CRIPTOGRAFIA</button>
+                <button class="btn btn-secondary m-1 button-decrypt">DESCRIPTOGRAFAR</button>
+                <button class="btn btn-success m-1 button-copy">COPIAR</button>
+                <button class="btn btn-danger m-1 button-reset">RESETAR</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center mt-5">
+        <p>Desenvolvido por <a href="https://github.com/walissonssousa">Walisson Sousa</a></p>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
